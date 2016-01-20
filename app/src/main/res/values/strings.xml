@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OkCupidInterview</string>
+    <string name="action_settings">Settings</string>
+    <string name="match">Match</string>
+    <string name="match_picture">Match profile picture</string>
+    <string name="no_people_found">No people found</string>
+    <string name="networking_error">You do not have networking/WiFi on this device, so nothing will be displayed.</string>
+    <string name="disconnect_error">Could not disconnect from the server.</string>
+    <string name="no_results_found">No results found. It is probably a networking error.</string>
+    <string name="combined_age_location">%1$s・%2$s, %3$s</string>
+</resources>
