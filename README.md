@@ -15,6 +15,12 @@ What my interpretation looks like is below.
 This application uses networking/AsyncTask to download the JSON file at https://okcupid.com/matchSample.json
 If this file is removed from the website, the application will not show anything in the grid view of matches.
 
+# Contributor(s)
+
+Developed by John Bohne.
+
 # License
 
 Anyone can do whatever they want with it.
+
+AOSP libraries and Picasso (Square library) are used in this application.
