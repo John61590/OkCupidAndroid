@@ -6,7 +6,7 @@ What it is supposed to look like is below.
 
 ![ScreenShot](https://raw.github.com/John61590/OkCupidAndroid/master/matchpage.png)
 
-What my interpretation looks like is below.
+What my interpretation looks like is below. As stated before, no ViewPager, search, action bar/appbar, search, menu, etc.
 
 ![ScreenShot](https://raw.github.com/John61590/OkCupidAndroid/master/okcupid-app.png)
 
