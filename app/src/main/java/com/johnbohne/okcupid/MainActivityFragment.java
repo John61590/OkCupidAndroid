@@ -29,7 +29,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A placeholder fragment containing a simple view.
+ * Created by John Bohne on 1/15/16.
+ *
+ * This fragment holds the grid view of matches.
  */
 public class MainActivityFragment extends Fragment{
 

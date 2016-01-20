@@ -15,6 +15,8 @@ import java.util.List;
 
 /**
  * Created by john on 1/15/16.
+ *
+ * This adapter is used to process the views for the grid view items.
  */
 public class ItemAdapter extends ArrayAdapter<Person> {
     private Context mContext;

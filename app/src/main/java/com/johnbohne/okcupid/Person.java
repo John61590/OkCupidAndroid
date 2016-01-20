@@ -1,7 +1,7 @@
 package com.johnbohne.okcupid;
 
 /**
- * Created by john on 1/15/16.
+ * Created by John Bohne on 1/15/16.
  */
 public class Person {
     private String userName;

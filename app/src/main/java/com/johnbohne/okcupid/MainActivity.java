@@ -6,6 +6,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/**
+ * Created by John Bohne on 1/15/16.
+ *
+ * This activity holds the fragment.
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
