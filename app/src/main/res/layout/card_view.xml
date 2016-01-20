@@ -5,6 +5,7 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     card_view:cardElevation="0dp"
+    card_view:cardPreventCornerOverlap="true"
     card_view:cardUseCompatPadding="true"
     card_view:cardCornerRadius="4dp">
         <RelativeLayout
@@ -16,7 +17,7 @@
             android:src="@drawable/ic_launcher"
             android:layout_centerHorizontal="true"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/image_height"
             android:scaleType="fitXY"/>
             <RelativeLayout
                 android:id="@+id/info_layout"
