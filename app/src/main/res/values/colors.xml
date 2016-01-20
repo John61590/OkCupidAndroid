@@ -3,7 +3,8 @@
     <color name="colorPrimary">#4C7BD9</color>
     <color name="colorPrimaryDark">#3260C7</color>
     <color name="colorAccent">#FF4081</color>
-    <!-- Color.GRAY -->
-    <color name="sysGray">#FF888888</color>
-    <color name="sysBlack">#FF000000</color>
+    <color name="userNameColor">#474D59</color>
+    <color name="infoTextColor">#949AA6</color>
+
+    <color name="window_theme_color">#EBEDF2</color>
 </resources>

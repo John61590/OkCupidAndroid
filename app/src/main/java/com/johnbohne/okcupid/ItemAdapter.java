@@ -69,7 +69,6 @@ public class ItemAdapter extends ArrayAdapter<Person> {
         }
         TextView userName = mViewHolder.userName;
         userName.setText(person.getUserName());
-        userName.setTextColor(Color.BLACK);
 
         TextView ageLocation = mViewHolder.combinedLocation;
         ageLocation.setText(mContext.getResources().getString(R.string.combined_age_location, person.getAge(), person.getCity(), person.getState()));

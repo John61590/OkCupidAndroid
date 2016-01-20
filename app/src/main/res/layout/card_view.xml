@@ -27,19 +27,21 @@
                 <TextView
                     android:id="@+id/user_name"
                     android:paddingTop="10dp"
+                    android:color="@color/userNameColor"
+                    android:textStyle="bold"
                     android:layout_centerHorizontal="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
                 <TextView
                     android:id="@+id/age_location"
-                    android:color="@color/sysGray"
+                    android:color="@color/infoTextColor"
                     android:layout_centerHorizontal="true"
                     android:layout_below="@id/user_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
                 <TextView
                     android:id="@+id/percentage"
-                    android:color="@color/sysGray"
+                    android:color="@color/infoTextColor"
                     android:paddingTop="10dp"
                     android:layout_centerHorizontal="true"
                     android:layout_below="@id/age_location"
@@ -49,7 +51,7 @@
                     android:id="@+id/match"
                     android:layout_below="@id/percentage"
                     android:textSize="12sp"
-                    android:color="@color/sysGray"
+                    android:color="@color/infoTextColor"
                     android:paddingBottom="10dp"
                     android:layout_centerHorizontal="true"
                     android:text="@string/match"
