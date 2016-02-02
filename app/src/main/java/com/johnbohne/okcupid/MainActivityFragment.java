@@ -163,7 +163,7 @@ public class MainActivityFragment extends Fragment{
             JSONObject json = (JSONObject) new JSONTokener(response).nextValue();
             JSONArray jsondataArray = json.getJSONArray("data");
             List<Person> people = new ArrayList<Person>();
-            int jsondataArrayLength = json.length();
+            int jsondataArrayLength = jsondataArray.length();
             String imageURL = null;
             String city = null;
             String state = null;
