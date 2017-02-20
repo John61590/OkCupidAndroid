@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
 import org.json.JSONArray;
@@ -35,7 +36,7 @@ import java.util.List;
  */
 public class MainActivityFragment extends Fragment{
 
-    private static final String URL = "http://www.okcupid.com/matchSample.json";
+    private static final String URL = "https://www.okcupid.com/matchSample.json";
     private static final String TAG = "MainActivityFragment";
     private Context mContext;
     private GridView mGridView;
@@ -82,6 +83,8 @@ public class MainActivityFragment extends Fragment{
         }
         @Override
         protected void onCancelled(List<Person> people) {
+            RelativeLayout progressLayout = (RelativeLayout) mRootView.findViewById(R.id.progress_layout);
+            progressLayout.setVisibility(View.GONE);
             mGridView.setEmptyView(mRootView.findViewById(android.R.id.empty));
         }
     }
@@ -150,15 +153,15 @@ public class MainActivityFragment extends Fragment{
                     }
                 }
             }
-            if (result == null) {
-                mGridView.setEmptyView(mRootView.findViewById(android.R.id.empty));
-                return null;
-            }
+            //return null;
             return readJSON(result);
         }
         return null;
     }
     public List<Person> readJSON(String response) {
+        if (response == null) {
+            return null;
+        }
         try {
             JSONObject json = (JSONObject) new JSONTokener(response).nextValue();
             JSONArray jsondataArray = json.getJSONArray("data");
