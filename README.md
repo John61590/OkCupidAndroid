@@ -1,6 +1,7 @@
 # OkCupidAndroid
 
 A native Java interpretation of the OkCupid Android application (just main screen) without ViewPager and accounts.
+This was done for an interview problem in early 2016.
 
 What it is supposed to look like is below.
 
